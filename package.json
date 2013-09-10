@@ -1,0 +1,28 @@
+{
+  "name": "redisAdmin",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.4.0",
+    "jade": "*",
+    "redis": "*",
+    "hiredis": "*"
+  },
+  "description": "a nodejs client to mange redis",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mashuai/nodeAdmin.git"
+  },
+  "keywords": [
+    "redis"
+  ],
+  "author": "mashuai",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/mashuai/nodeAdmin/issues"
+  }
+}

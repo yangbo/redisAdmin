@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  p redis info
+  table('border'=1)
+    - for (var key in serverInfo)
+      tr
+         td= key
+         td= serverInfo[key]
